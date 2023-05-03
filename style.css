@@ -1,0 +1,48 @@
+#body{
+    background-color: #d6ccc2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+
+}
+
+.border{
+    border: solid, 5px, white;
+    border-radius: 50px;
+}
+
+#greeting{
+    font-size: 100px;
+}
+
+#inputBar{
+    width: 50vw;
+    padding: 10px 30px;
+    font: inherit;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+#matches{
+    display: none;
+    list-style-type: none ;
+}
+
+.samplesuggestion{
+    margin-top: 10px;
+    font: inherit;
+    font-size: 50px;
+    font-weight: 300;
+    background-color: #c0ac98;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.samplesuggestion:hover{
+    scale: 1.01;
+    box-shadow: 0 0 5px 5px #a08c78;
+    cursor: pointer;
+}
